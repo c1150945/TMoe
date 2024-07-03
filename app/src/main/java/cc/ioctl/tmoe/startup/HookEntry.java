@@ -15,6 +15,7 @@ public class HookEntry implements IXposedHookLoadPackage, IXposedHookZygoteInit 
     private static final List<String> TELEGRAM_CLIENT_PACKAGE_NAME_LIST = List.of(
             "org.telegram.messenger",
             "org.telegram.messenger.beta",
+            "tw.nekomimi.nekogram"
             "org.telegram.plus",
             "nekox.messenger",
             "com.jasonkhew96.pigeongram",
